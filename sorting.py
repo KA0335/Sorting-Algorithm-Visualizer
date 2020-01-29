@@ -212,3 +212,17 @@ def quick_sort(nums):  # n^2
             _quick_sort(items, split_index + 1, high)
 
     _quick_sort(nums, 0, nums.get_len() - 1)
+    
+    
+    def timSort(arr, n): 
+    	for i in range(nums.get_len()): 
+	    	insertion_sort(nums) 
+		n= nums.get_len()
+	    while size < n: 
+		    for left in range(0, n, 2*size): 
+			    mid = left + size - 1
+			    right = min((left + 2*size - 1), (n-1)) 
+			    merge_sort(nums, lower_index=0)
+		    size = 2*size
+    
+    
